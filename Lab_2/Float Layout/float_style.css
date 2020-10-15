@@ -1,0 +1,111 @@
+header, footer{
+    height: 12vh;
+    padding: 15px;
+    font-size: 120%;
+    background-color: #CEE3F6;
+  }
+  footer{
+      float: left;
+      width: 100%;
+      padding: 15px 0px;
+  }
+  header .button{
+    float: left;
+    background-color: white;
+    height: 60px;
+    width: 280px;
+    text-align: center;
+    margin: 17px;
+  }
+  header .button h2, footer .button h2{
+    margin: 13px;
+  }
+  header .title{
+    float: right;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  footer .title{
+    float:left;
+    margin-left: 20px;
+  }
+  footer .button{
+    float: right;
+    height: 60px;
+    width: 280px;
+    padding-left: 20px;
+    background-color: white;
+    margin: 17px;
+  }
+  .main {
+    overflow: hidden; 
+    float: left;
+   }
+   aside, .inner_main {
+    float: left; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    min-height: 100px; 
+   }
+   aside {
+    width: 20%;
+    height: 78vh;
+    background: #F5ECCE; 
+    display: table;
+   }
+   aside div{
+    display: table-cell;
+    vertical-align: middle;
+   }
+   .inner_main {
+    width: 80%;
+    height: 78vh;
+    padding: 0;
+   }
+   .inner_main .main_header{
+    background-color: #D8F6CE;
+    height: 9vh;
+    text-align: center;
+   }
+a {
+  color: black;
+  text-decoration: none;
+}
+   .inner_main .main_header div{
+       padding: 30px;
+   }
+   .inner_main .main_footer div{
+       padding-top: 30px;
+   }
+   .inner_main .main_under_header {
+    float: left;
+    width: 70%;
+    height: 70vh;
+    display: table;
+   }
+   .inner_main .main_under_header .main_content{
+    height: 58vh;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 30px;
+   }
+   .inner_main .main_aside {
+    width: 30%; 
+    float: left;
+    height: 70vh;
+    display: table;
+    text-align: center;
+    background-color:  #F5ECCE;
+   }
+   .inner_main .main_aside div{
+    display: table-cell;
+    padding: 0px 15px;
+    vertical-align: middle;
+   }
+   .inner_main .main_footer{
+    background-color: #D8F6CE;
+    height: 10vh;
+    margin-top: 15px;
+    text-align: center;
+   }
